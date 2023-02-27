@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.bars-container {
+  display: flex;
+  height: 72vh;
+  margin-top: 8px;
+  width: 100vw;
+  justify-content: center;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.bar {
+  flex-grow: 1;
+  background-color: black;
+  margin-left: 2px;
+}
